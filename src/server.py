@@ -1,5 +1,9 @@
 # server.py
 from mcp.server.fastmcp import FastMCP
+from obsidian_client import ObsidianClient
+
+client = ObsidianClient(vault_path="/path/to/vault")
+# Use client methods...
 
 # Create an MCP server
 mcp = FastMCP("Demo")
